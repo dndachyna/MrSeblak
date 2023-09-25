@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: darkred;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: black;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: orangered;
+	color: #000;
+}
+.active{
+	background-color: darkred;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(245, 116, 42, 0.6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+	background-color: rgb(230, 230, 230);
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: darkred;
+}
+.about p{
+	color: black;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #B3FAE9;
+}
+footer{
+	padding: 30px 0;
+	background-color: darkred;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+.banner1{
+	height: 60vh;
+	background-color: white;
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner1:hover{
+		opacity: 1.4;
+		filter: alpha(opacity=40);
+}
+.banner1:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.banner1 h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+
+div1 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+
+.seblak1 {
+	background-image: url(../img/seb1.jpg);
+	top: 105px;
+	left: 80px;
+}
+
+.seblak2 {
+	background-image: url(../img/seb2.jpg);
+	top: 100px;
+	left: 950px;
+}
+
+.seblak3 {
+	background-image: url(../img/seblak3.jpeg);
+	top: 105px;
+	left: 100px;
+}
+
+.seblak4 {
+	background-image: url(../img/seblak4.jpeg);
+	top: 100px;
+	left: 950px;
+}
+
+.text {
+	font-size: 10px;
+	padding-left: 300px;
+  }
+
+  .text2 {
+	font-size: 10px;
+	padding-left: 10px;
+  }
